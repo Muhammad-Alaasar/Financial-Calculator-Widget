@@ -8,11 +8,11 @@
 
 
 > Sum = ( Vendor/Bills + Media/Ad + Corporation spend+ Team project )
-Brex = sum* 0.3
-Stripe = sum *2.9
-Amex = sum * 1.3
-Unlimited rewards = sum * 1.1
-Lifetime rewards = sum *1.2
+> Brex = sum* 0.3
+> Stripe = sum *2.9
+> Amex = sum * 1.3
+> Unlimited rewards = sum * 1.1
+> Lifetime rewards = sum *1.2
 ##
 ### Technologies
 ###
