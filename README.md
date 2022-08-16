@@ -8,6 +8,7 @@
 
 
 > Sum = ( Vendor/Bills + Media/Ad + Corporation spend+ Team project )
+
 > Brex = sum* 0.3
 > Stripe = sum *2.9
 > Amex = sum * 1.3
