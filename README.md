@@ -6,14 +6,19 @@
 > This app allows you to calculates the percentage of each brand:
 [Brex, Stripe, Amex ]
 
+```
+Sum = ( Vendor/Bills + Media/Ad + Corporation spend+ Team project )
 
-> Sum = ( Vendor/Bills + Media/Ad + Corporation spend+ Team project )
+Brex = sum* 0.3
 
-> Brex = sum* 0.3
-> Stripe = sum *2.9
-> Amex = sum * 1.3
-> Unlimited rewards = sum * 1.1
-> Lifetime rewards = sum *1.2
+Stripe = sum *2.9
+
+Amex = sum * 1.3
+
+Unlimited rewards = sum * 1.1
+
+Lifetime rewards = sum *1.2
+```
 ##
 ### Technologies
 ###
