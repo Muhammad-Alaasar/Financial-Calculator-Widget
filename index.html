@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Calculator Widget</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <section class="data-entry">
+        <h1>Calculate your Rewards</h1>
+        <h2><b>Vendor/Bills</b> <input onchange="check()" type="number" name="" id="" placeholder="Enter a number"></h2>
+        <h2><b>Media/Ad Spend</b> <input onchange="check()" type="number" name="" id="" placeholder="Enter a number">
+        </h2>
+        <h2><b>Corp.Spend</b> <input onchange="check()" type="number" name="" id="" placeholder="Enter a number"></h2>
+        <h2><b>Team Project</b> <input onchange="check()" type="number" name="" id="" placeholder="Enter a number"></h2>
+    </section>
+    <section class="rewards">
+        <h2>Compare your Rewards</h2>
+        <button>Brex</button>
+        <button>Stripe</button>
+        <button>Amex</button>
+        <div class="result">
+            <div class="left-side">
+                <img src="images/image1.jpg" alt="">
+                <div class="detials-result">
+                    <h3>Unlimited Rewards</h3>
+                    <h3>LifeTeam Rewards</h3>
+                    <h3><span></span> Rewards</h3>
+                </div>
+            </div>
+            <div class="right-side">
+                <p id="unlimited-result"></p>
+                <p id="lifetime-result"></p>
+                <p id="business-card-result"></p>
+            </div>
+
+        </div>
+    </section>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

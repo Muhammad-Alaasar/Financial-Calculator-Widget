@@ -1,0 +1,82 @@
+.data-entry,
+.rewards {
+    text-align: center;
+}
+
+.data-entry h2 {
+    font-size: 20px;
+    color: #0e55d5;
+    width: 65%;
+    text-align: right;
+}
+
+.data-entry h2 b {
+    margin-right: 50px;
+}
+
+.data-entry h2 input {
+    text-align: center;
+    height: 1.2rem;
+}
+
+.data-entry h1,
+.rewards h2 {
+    color: darkblue;
+}
+
+.rewards button {
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #444;
+    font-style: italic;
+    color: #444;
+    cursor: pointer;
+}
+
+.rewards button:not(:first-of-type) {
+    margin-left: 20px;
+}
+
+.rewards .result {
+    display: flex;
+    width: 35%;
+    margin: 30px auto;
+}
+
+.rewards .result .left-side {
+    border: 1px solid #444;
+    height: 150px;
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.rewards .result .right-side {
+    padding-top: 15px;
+}
+
+.rewards .result img {
+    height: 150px;
+    align-self: center;
+}
+
+.rewards .result h3:last-of-type {
+    display: none;
+}
+
+.rewards .result p {
+    width: 100px;
+    height: 25px;
+    background-color: #4882ec;
+    margin-left: 30px;
+    display: block;
+    content: "";
+    border-radius: 10px;
+}
+
+.rewards .result .right-side p#business-card-result {
+    display: none;
+}
